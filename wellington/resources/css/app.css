@@ -1,0 +1,127 @@
+@import 'responsive.css';
+
+body {
+    background-color: #C8E5F7;
+    margin: 0px;
+}
+
+.top-navbar {
+    background-color: #E8E7E8;
+    overflow: hidden;
+}
+
+
+#page-header {
+    display: inline-block;
+    background-color: #E8E7E8;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.top-navbar a {
+    float: left;
+    display: block;
+    color: #181717;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top-navbar a:hover {
+    background-color: rgb(77, 77, 80);
+    color: white;
+}
+
+#company-logo {
+    height: 60px;
+    float: left;
+}
+
+#company-name {
+    display: flex;
+    align-items: top;
+    height: 60px;
+    float: left;
+    margin: 0 25px 5px 10px;
+    padding-top: 5px;
+    /*font-family: 'Cinzel Decorative', cursive;*/
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-shadow: -1px 1px 2px white,
+        1px 1px 2px white,
+        1px -1px 0 white,
+        -1px -1px 0 white;
+}
+
+#company-name2 {
+    font-family: 'Allura', cursive;
+    /*font-family: 'Rouge Script', cursive;*/
+    /*font-family: 'Italianno', cursive;*/
+    position: absolute;
+    top: 35px;
+    left: 150px;
+    color: #F58941;
+    text-shadow: -1px 1px 2px white,
+        1px 1px 2px white,
+        1px -1px 0 white,
+        -1px -1px 0 white;
+    font-size: 28px;
+}
+
+.logo-container {
+    background-color: #E8E7E8;
+    float: left;
+    padding: 10px 0 0 0;
+}
+
+#main-image-container {
+    padding: 0px;
+    margin: 10px 0 0;
+}
+
+#main-image {
+    padding: 0px;
+}
+
+#welcome {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+.service-info-container:not(.last) {
+    border-right: 1px solid;
+}
+
+.service-info-container {
+    background-color: white;
+}
+
+
+.footer {
+    background-color: rgb(31, 29, 29);
+    display: inline-block;
+}
+
+.footerdiv {
+    color: white;
+    background-color: rgb(31, 29, 29);
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
+.footer-links li a {
+    color: white;
+}
+
+.footer-links li a:link {
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
